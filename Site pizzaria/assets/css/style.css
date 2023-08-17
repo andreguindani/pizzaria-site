@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Rubik;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+#nav {
+    background: rgb(255, 0, 0);
+    padding: 10px 0;
+}
+
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 5px 0px;
+    margin: 0 5px;
+}
+
+#nav ul#menu li {
+    float: left;
+    border-radius: 8px;
+}
+
+#nav ul.right li {
+    float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#nav ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul#menu li.active {
+    background-color: darkred;
+}
+
+#nav ul#menu li:hover {
+    background-color: darkred;
+}
+
+#nome {
+    text-align: center;
+    font-size: 35px;
+}
+
+.amarelo {
+    background-color: rgb(255, 187, 0);
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.32%;}
+.col-5 {width: 41.65%;}
+.col-6 {width: 49.98%;}
+.col-7 {width: 58.31%;}
+.col-8 {width: 66.64%;}
+.col-9 {width: 74.97%;}
+.col-10 {width: 83.3%;}
+.col-11 {width: 91.63%;}
+.col-12 {width: 100%;}
+
+
+#meio {
+    text-align: center;
+}
+
+.blue {
+    background-color: goldenrod;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#section li {
+    font-size: xx-large;
+
+}
+
+#inicio img {
+    border-radius: 10px;
+    margin: 35px;
+}
+
+#bebidas {
+    margin-left: auto;
+    background-color: #6495ED;
+    padding: auto;
+    margin: auto;
+    margin-right: auto;
+}
+
+.coca {
+    margin-left: 200px;
+}
+
+.cola {
+    text-align: center;
+}
+
+footer {
+    background-color: #B22222;
+    padding: 15px;
+    color: white;
+}
+
+.rodape2 {
+    text-align: center;
+    margin-top: -37px;
+    padding: auto;
+}
+
+.rodape3 {
+    margin-top: -37px;
+    text-align: right;
+}
+.frase {
+    text-align: center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#inicio img {
+    transition: all .5s ease;
+}
+
+#inicio img:hover {
+    transform: scale(1.2);
+}
+
